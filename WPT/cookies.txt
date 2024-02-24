@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+labour.gov.in	TRUE	/	FALSE	1999999999	TS01185702	017986078afd7d4a7a00face34ded74bbb3116308eb700dba050cf8a8e057b8c418b0574edc55db002e48599b21eddb1bd0fbff2c9
+gpt.karnataka.gov.in	TRUE	/	FALSE	1999999999	id	47u5be30pkcdpbivck9p5vnf731tdkcp
+

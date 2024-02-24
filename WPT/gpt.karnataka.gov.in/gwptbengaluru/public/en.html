@@ -1,0 +1,2658 @@
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<script type="text/javascript">
+	var base_url = "index.html"; 
+	var lang_name = "en"; 
+</script>
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from gpt.karnataka.gov.in/gwptbengaluru/public/en by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 24 Feb 2024 03:20:19 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <title>Government Polytechnic for Women, Bengaluru - Index</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+	<link rel="icon" href="assets/front/images/kar_main_logo.png" type="image/png" sizes="42x42"/>
+	<script type="text/javascript" src="assets/front/js/jquery_min.js"></script>
+	<script type="text/javascript" src="assets/front/js/bootstrap.min.3.3.1.js"></script>    
+	<script src='assets/front/js/fontawsome.js'></script>
+	<link href="assets/front/css/google_fonts.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/front/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/front/css/w3.css">
+	<link rel="stylesheet" type="text/css" href="assets/front/owl/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/front/css/bootstrap.min.css">
+     <link rel="stylesheet" type="text/css" href="assets/front/css/aos.css">
+ <link rel="stylesheet" type="text/css" href="assets/front/css/fancybox.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/front/css/mystyle8648.css?1708744820=">
+	<link rel="stylesheet" type="text/css" href="assets/front/css/mymobile8648.css?1708744820=">
+	<link rel="stylesheet" type="text/css" href="assets/front/css/mysmallmobile8648.css?1708744820=">
+	<link rel="stylesheet" type="text/css" href="assets/front/tabswipe/css/swipe_bundle.css">
+	<link rel="stylesheet" type="text/css" href="assets/front/tabswipe/css/tabswipe_style.css">
+
+<script>
+$(document).ready(function() {
+  $(".gallery a").fancybox();
+});
+</script>
+	<style>
+			:root{
+		  --color-primary:#b71540;
+		}
+		
+	</style>
+
+  <style type="text/css">
+     #slideshow 
+    {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      padding: 0px;
+      box-shadow: 0 0 0px rgba(0, 0, 0, 0.4);
+      border: 0px solid red;
+    }
+
+    #slideshow > div 
+    {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 10px;
+      bottom: 10px;
+      width: 100%;
+      border: 0px solid blue;
+      height: 300px;
+    }
+
+    .slider_image
+    {
+      width: 100%;
+      height: 300px;
+      border: 0px solid green;
+    }
+
+    .sticky 
+    {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+ 
+
+
+  </style>
+
+</head>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-long-arrow-up" aria-hidden="true"></i></button>
+<body id="content">
+
+<!---------------------------------------------------- Header1 ------------------------------------------->
+<div id="header1_div">
+<div class=" header1_div_container">	
+ <div class="row"   style="width: 100%;margin: 0px;">
+
+   <div class="col-sm-6 col-xs-6 header1_col1">
+     <ul class="list-inline" id="ul_left">
+       <li class="hidden-xs hidden-sm"><a href="back/index.html"  target="_blank">LOGIN</a></li>  
+       <li class="lang"><a href="kn.html">Kannada</a></li>  
+               <li class="hidden-xs hidden-sm"><a href="https://karnataka.gov.in/english" target="_blank">Official Website of GoK </a></li>  
+ <li class="hidden-xs hidden-sm"><a href="https://covid19.karnataka.gov.in/english" target="_blank"> Corona Related Information   </a></li>  
+     </ul> 
+   </div>
+
+   <div class="col-sm-6 col-xs-6 header1_col2">
+     <ul class="list-inline" id="ul_right">
+         
+     <!--    <li class="low_vision" title="Kannada Version"  id="kn_version">
+          <a href="#" style="font-weight: 600;"> ಕ </a>
+        </li>  -->
+        
+
+      <li  data-toggle="modal" data-target="#myModalf9"><i class="fa fa-eye screenacess"></i></li>
+
+        <li class="a_normal  btn btn-primary" >
+          <a title="Normal View" class="A_white" href="#">A</a>
+        </li>
+
+        <li class="a_black btn btn-primary" style="background-color: #000;">
+          <a onclick="Black()"  title="For Visually Disabled click here" style="color: #fff810;" class="A_black" href="#">A</a>
+        </li>
+ 
+       
+      <div class="textcontrols">
+      <button role="button" id="decreasetext" <span>A-</span>
+      </button>
+      <button role="button" id="resettext">
+        <span>A</span>
+      </button>
+      <button role="button" id="increasetext">
+        <span>A+</span>
+      </button>
+    </div>
+
+        <li class="low_vision" title="Kannada Fonts Download" data-toggle="modal" data-target="#myModal_fonts" style="background-color: white;border: 1px solid #08367e;display: none;"><i class="fa fa-file-archive-o" id="vision_icon"></i></li>
+
+     </ul> 
+   </div>
+
+  </div> 
+</div>  
+</div>  
+
+
+
+
+<!----- Modal pop-up ----->
+
+  <!--------- Modal-Up ----------->
+
+    <!-- Modal -->
+      <div class="modal " id="myModal_screen" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" style="color: white;">&times;</button>
+              <h4 class="modal-title">Screen Reader Access </h4>
+            </div>
+
+            <div class="modal-body" style="overflow-x: auto;">
+              <p>The website complies with World Wide Web Consortium (W3C) Web Content Accessibility Guidelines (WCAG) 2.0 level AA. This will enable people with visual impairments access the website using assistive technologies, such as screen readers. The information of the website is accessible with different screen readers, such as JAWS, NVDA, SAFA, Supernova and Window-Eyes.</p>
+              <p>Following table lists the information about different screen readers:</p>
+
+              <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Sl.No</th>
+                  <th>Screen Reader</th>
+                  <th>Website</th>
+                  <th>Free/ Commercial</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Non Visual Desktop Access (NVDA)</td>
+                  <td><a href="http://www.nvda-project.org/" target="_blank">http://www.nvda-project.org/</a>(External website that opens in a new window)</td>
+                  <td>Free</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>JAWS</td>
+                  <td><a href="https://www.freedomscientific.com/products/software/jaws/" target="_blank">http://www.freedomscientific.com</a>(External website that opens in a new window)</td>
+                  <td>Commercial</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Window-Eyes</td>
+                  <td><a href="http://www.gwmicro.com/" target="_blank">http://www.gwmicro.com</a>(External website that opens in a new window)</td>
+                  <td>Commercial</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>System Access To Go</td>
+                  <td><a href="http://www.satogo.com/" target="_blank">http://www.satogo.com/</a>(External website that opens in a new window)</td>
+                  <td>Free</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>WebAnywhere</td>
+                  <td><a href="http://webinsight.cs.washington.edu/" target="_blank">http://webinsight.cs.washington.edu/</a>(External website that opens in a new window)</td>
+                  <td>Free</td>
+                </tr>
+              </tbody>
+              </table>
+            </div>
+
+           
+          </div>
+          
+        </div>
+      </div>
+
+
+
+
+    <!--------- Kannada Font Download ----------->
+
+    <!-- Modal -->
+      <div class="modal fade" id="myModal_font" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">ಉಚಿತ ಕನ್ನಡ ಯುನಿಕೋಡ್‌ ಫಾಂಟ್‌ಗಳು </h4>
+            </div>
+
+            <div class="modal-body" style="overflow-x: auto;">
+              
+
+              <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Sl.No</th>
+                  <th>File Name</th>
+                  <th>Size</th>
+                  <th>Download</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Kedage Kannada Fonts</td>
+                  <td>145.2 KB</td>
+                  <td><a href="zip/kedage_kannada_fonts.html"><i class="fa fa-download"></i></a></td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Mallige Kannada Fonts</td>
+                  <td>514 KB</td>
+                  <td><a href="zip/mallige_kannada_fonts.html"><i class="fa fa-download" ></i></a></td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Lohit Kannada Fonts</td>
+                  <td>514 KB</td>
+                  <td><a href="zip/Lohit_kannada_fonts.html"><i class="fa fa-download" ></i></a></td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Murty Kannada Fonts</td>
+                  <td>514 KB</td>
+                  <td><a href="zip/Murty_Kannada_fonts.html"><i class="fa fa-download" ></i></a></td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>SakalBharati Kannada Fonts</td>
+                  <td>514 KB</td>
+                  <td><a href="zip/SakalBharati_kannada_fonts.html"><i class="fa fa-download" ></i></a></td>
+                </tr>
+              </tbody>
+              </table>
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+<!---------------------------------------------------- Header2 ------------------------------------------->
+<div class="header2_div">
+  <div class=" header2_div_container">
+    <div class="row header2_div_row">
+   
+   
+     <div class="col-md-4 col-lg-4 col-sm-8 col-xs-8" >
+     <a href="https://cm.karnataka.gov.in/"> <img class="ci-cm-photo hidden-sm hidden-xs" src="../../../planning.karnataka.gov.in/frontend/opt1/images/cm_logo/chief_minister_of_karrnataka_en.png"></a>
+   
+     </div>
+   
+   
+      <div class="col-md-5 col-lg-5 col-sm-8 col-xs-8" >
+
+   <a href="https://gpt.karnataka.gov.in/gwptbengaluru/public">
+        <div class="media mymedia ">
+      <div class="media-left logo-10">
+           <a >
+                <img src="uploads/dept_logo1652174276.jpg" class="gok_logo pull-left">
+
+			</a>
+       <div class="dept_name">
+       <h4 class="media-heading media_title">Government Polytechnic for Women, Bengaluru</h4>
+	   <a href="https://karnataka.gov.in/" target="_blank">
+        <p class="media_title_p">Department Of Collegiate and Technical Education, Government of Karnataka</p>
+		</a>
+      </div>
+      </div>
+      <div class="media-body mymedia1">
+
+      </div>
+    </div>
+  </a>  
+     </div>
+
+    
+  <div class="col-md-3 col-lg-3 col-sm-4 col-xs-4" >
+
+        <div class="media">
+
+          <div class="media-body">
+     <a href="https://karnataka.gov.in/" target="_blank">
+                <img src="assets/front/images/kar_main_logo.png" class="dept_logo">
+              </a>
+          </div>
+
+        </div>
+
+     </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+<!---------------------------------------------------- Header3 ------------------------------------------->
+<div class="mynavbar" id="myHeader">
+ <div class=" mynavbar_container">
+<div class="over-menu"></div>
+    <div id="wrap">
+      <header class="header" id="header-sroll">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="desk-menu">
+                <div class="logo">
+                  <h1 class="logo-adn">
+                    <!-- <a title="Davidson Silva - Desenvolvedor front-end em BH" href="https://www.davidsonsilva.com.br"> -->
+                      <!-- Davidson <span>Silva</span> -->
+                    </a>
+                  </h1>
+                </div>
+                <nav class="box-menu">
+                  <div class="menu-container ">
+                         <div class="hidden-md hidden-lg">    <a href="https://cm.karnataka.gov.in/" target="_blank"><img class="ci-cm-photo " src="../../../planning.karnataka.gov.in/frontend/opt1/images/cm_logo/chief_minister_of_karrnataka_en.png"></a></div>
+                    <div class="menu-header-container ">
+                          
+     <li class=" level_0 staic-home"> <a href="en.html"  title="Opens in a new window"><i class="fa fa-home" aria-hidden="true"></i> </a></li>
+						<ul id='cd-primary-nav' class='menu main-m'><li class='menu-item menu-item-has-children  level_0'>
+					<a href='#.'>
+					<i class='fa fa-user-circle'></i> About Us</a><ul id='cd-primary-nav' class='sub-menu sub-menu-0'><li class=' level_1'>
+					<a href='23/history/en.html'>
+					<i class='fa fa-history'></i> History</a></li><li class=' level_1'>
+					<a href='https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/35/principal%27s-desk/en'>
+					<i class='fa fa-handshake-o'></i> Principal's Desk</a></li><li class=' level_1'>
+					<a href='https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/16/organization-chart/en'>
+					<i class='fa fa-group'></i> Organization Chart</a></li><li class=' level_1'>
+					<a href='https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/1/vision-and-mission/en'>
+					<i class='fa fa-eye'></i> Mission and Vision</a></li><li class=' level_1'>
+					<a href='#.'>
+					<i class='fa fa-users'></i> SWOT Analysis</a></li></ul></li><li class='menu-item menu-item-has-children  level_0'>
+					<a href='#.'>
+					<i class=''></i> Activities</a><ul id='cd-primary-nav' class='sub-menu sub-menu-0'><li class=' level_1'>
+					<a href='https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/30/iqac/en'>
+					<i class=''></i> IQAC</a></li><li class=' level_1'>
+					<a href='https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/32/anti-ragging-and-sexual-harassment/en'>
+					<i class=''></i> ANTI REGGING AND SEXUAL HARASSMENT CELL </a></li><li class=' level_1'>
+					<a href='https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/28/all-india-council-for-technical-education-(aicte)/en'>
+					<i class=''></i> AICTE</a></li><li class=' level_1'>
+					<a href='https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/26/training-placement-&amp;-enterpreneurship-&amp;-carrer-guideline/en'>
+					<i class=''></i> TRAINING PLACEMENT & ENTERPRENEURSHIP & CARRER GUIDELINE</a></li><li class=' level_1'>
+					<a href='https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/25/web-site-maintenance-/en'>
+					<i class=''></i> WEB SITE MAINTENANCE</a></li><li class=' level_1'>
+					<a href='https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/27/nss,-red-cross-&amp;-yoga/en'>
+					<i class=''></i> NSS, RED CROSS & YOGA</a></li><li class=' level_1'>
+					<a href='https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/24/aishe--(-all-india-survey-of-higher-education-)/en'>
+					<i class=''></i> AISHE</a></li><li class=' level_1'>
+					<a href='https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/33/women-in-development-cell/en'>
+					<i class=''></i> WOMEN IN DEVELOPMENT CELL</a></li><li class=' level_1'>
+					<a href='https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/31/moocs-&amp;-swayam,-nptel-&amp;-spring-board/en'>
+					<i class=''></i> MOOCS & SWAYAM, NPTEL & SPRING BOARD</a></li><li class=' level_1'>
+					<a href='https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/34/sc-&amp;-st-committee/en'>
+					<i class=''></i> SC & ST COMMITTEE</a></li><li class=' level_1'>
+					<a href='https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/29/lms/en'>
+					<i class=''></i> LMS</a></li></ul></li><li class='menu-item menu-item-has-children  level_0'>
+					<a href='#.'>
+					<i class='fa fa-bars'></i> Departments</a><ul id='cd-primary-nav' class='sub-menu sub-menu-0'><li class=' level_1'>
+					<a href='21/science-and-humanities/en.html'>
+					<i class=''></i> Science and Humanities</a></li><li class=' level_1'>
+					<a href='https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/20/office/en'>
+					<i class=''></i> office</a></li><li class=' level_1'>
+					<a href='https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/14/apparel-design-and-fabrication-technology/en'>
+					<i class=''></i> Apparel Design and Fabrication Technology</a></li><li class=' level_1'>
+					<a href='https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/15/mission-&amp;-vision-of-civil-engineering-department/en'>
+					<i class=''></i> Civil Engineering</a></li><li class=' level_1'>
+					<a href='https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/19/commercial-practice-/en'>
+					<i class=''></i> Commercial Practice</a></li><li class=' level_1'>
+					<a href='https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/4/cs-department-vision-and-mission/en'>
+					<i class='fa fa-laptop'></i> Computer Science and Engineering</a></li><li class=' level_1'>
+					<a href='https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/2/lis-department-vision-and-mission/en'>
+					<i class='fa fa-book'></i> Library and Information Science</a></li><li class=' level_1'>
+					<a href='https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/3/electronics-and-communication-engineering-vision-and-mission/en'>
+					<i class=''></i> Electronics and Communication Engineering</a></li><li class=' level_1'>
+					<a href='#.'>
+					<i class=''></i> Gaming and Animation</a></li></ul></li><li class=' level_0'>
+					<a href='https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/36/aicte-mandatory-disclosures/en'>
+					<i class=''></i> AICTE mandatory disclosures</a></li><li class=' level_0'>
+					<a href='37/contact-us/en.html'>
+					<i class='fa fa-institution'></i> Contact Us</a></li></ul>					
+
+
+
+
+                    </div>
+                    <ul class="mob-links">
+                               <li class="hidden-md hidden-lg btn btn-back"><a href="https://karnataka.gov.in/english" target="_blank">Official Website of GoK </a></li>  
+ <li class="hidden-md hidden-lg btn btn-back"><a href="https://covid19.karnataka.gov.in/english" target="_blank"> Corona Related Information   </a></li>  
+                  </ul>
+                  </div>
+                  <div class="hamburger-menu">
+                    <div class="bar"></div>
+                  </div>
+                </nav>
+              
+                 <i class="fa fa-search ci-search"> </i>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </header>
+ </div>
+</div> 
+    </div>
+
+     <ul class="float-feed">
+  <li><a href="feedback/en.html"> Feedback</a></li>
+</ul><!------------------------------------------------------  Sticky Button ------------------------------------------------------->
+<div class="icon-bar"  style="display: none;">
+   <p class="icon-bar_p"> <a  href="events.html" class="icon-bar_a">Events</a> </p> 
+</div>
+
+
+ <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4500">
+   <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    
+  </ol>  
+
+
+
+
+
+    <div class="carousel-inner">
+            <div class="item carousel-item active">
+        <img src="uploads/media_to_upload1640689046.jpg"/>
+		        <div class="carousel-caption">
+          Slide1		</div>
+		    </div> 
+  
+  
+
+
+
+ <div   style="font-weight: bold;text-align: center;background: #bedaeb;">
+ 
+
+  <p><a href="https://ipgrs.karnataka.gov.in/" target="_blank">Click here <img class="mjsp-img" style="margin: 0px;padding: 10px;height:45px; " src="../../../mybmtc.karnataka.gov.in/frontend/opt1/images/center_logo/Janaspandana-logo-sm.png" alt="Grivience"/>/ <strong><i class="fa fa-phone" style="color: black;"></i> Call 1902</strong> to register your grievance (if any) regarding any scheme / service delivery of Government of Karnataka</a></p>
+ 
+ 		
+			
+
+
+</div>
+
+
+
+   	  
+    </div>
+  
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
+
+
+    
+
+
+
+
+<section class="demo-section-box">
+	
+    <div class="section-container">
+
+      <div class="demo-box">
+
+        <div class="breaking-news-ticker" id="newsTicker10">
+            <div class="bn-label arrow_box_right"><div >
+	<div class="newsbadge"> <i class="fa fa-flash ico-style"></i><h1>	News & Events </h1></div>
+	
+</div></div>
+            <div class="bn-news">
+          
+             <marquee class="marquee" behavior="scroll" direction="left">
+                        <p><i class="fa fa-hand-o-right" aria-hidden="true"></i> <a href="#.">National Voters Day</a> (<span class="ndate">2024-01-29 12:21:57</span>)</p>            <p><i class="fa fa-hand-o-right" aria-hidden="true"></i> <a href="https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/uploads/media_to_upload1706510904.pdf">Result announcement today</a> (<span class="ndate">2024-01-29 12:20:58</span>)</p>  </marquee>
+      
+      
+      
+            
+            </div>
+            <div class="bn-controls">
+
+                          <a href="events/en.html" class="ribbon-sm-nws">Read All  </a>
+            </div>
+          </div>
+          <!-- *********************** -->
+          <!-- DEMO10 HTML END HERE ** -->
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+<div class="container">	
+<div class="row m-t-40">
+                            <!-- Column -->
+                            <div class="col-lg-5 wrap-feature15-box">
+                                <div class="row not-box">
+                                    <div id="outer1">                      
+<div class="inner1">
+    <div class="dep-h-img"> <img src="uploads/minister_photo1702449114.jpg"></div>
+    <div class="dept-h-des"><p class="lead"> Dr. M. C. Sudhakar <br> <span class="head-designation">Honorable Minister of Higher Education, Government of Karnataka</span></p></div>   
+</div>                   
+</div>
+
+<div id="outer1">                      
+<div class="inner1">
+    <div class="dep-h-img"> <img src="uploads/hod_photo1702449114.jpg"></div>
+    <div class="dept-h-des">        <p class="lead"> Shri. Jagadeesha. G  IAS <br><span class="head-designation"> Commissioner, Department of Collegiate and Technical Education</span></p></div>   
+</div>                   
+</div>
+
+                                      <div class="col-md-12 m-b-30 aos-init aos-animate notify-box" data-aos="fade-down" data-aos-duration="3000">
+                                  
+                                          
+
+
+
+<h3 class="re-head"> <i class="fa fa-bell">  </i> Circulars and Notifications</h3>
+<section class="demo-section-box">
+	
+    <div class="section-container">
+
+      <div class="demo-box">
+
+        <div class="breaking-news-ticker" id="newsTicker10">
+         
+            <div class="bn-news-not">
+          
+             <marquee class="marquee marquee-notification" behavior="scroll" direction="up">
+                        <p><i class="fa fa-hand-o-right" aria-hidden="true"></i> <a href="https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/uploads/media_to_upload1706512728.pdf">Result Announcement </a> (<span>2024-01-29 15:04:24</span>)</p>  </marquee>
+      
+      
+      
+            
+            </div>
+            <div class="bn-controls">
+                        <a href="notifications/en.html" class="ribbon-sm"> Read All </a>
+            </div>
+          </div>
+          <!-- *********************** -->
+          <!-- DEMO10 HTML END HERE ** -->
+
+      </div>
+    </div>
+  </section>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                            <!-- Column -->
+                            <div class="col-lg-7 ml-auto">
+                                <div class="card card-shadow aos-init aos-animate" data-aos="flip-left" data-aos-duration="1200">
+                                	<div class="featured-box">	
+                                    <img class="card-img-top" src="uploads/dept_photo1652174276.jpg" alt="wrappixel kit">
+                                    </div>
+                                    <div class="card-body p-40 po-relative">
+                                        <div class="quote icon-round bg-danger-gradiant po-absolute text-white"><i class="fa fa-info">  Government Polytechnic for Women, Bengaluru</i></div>
+                                        <div class="quote-text">
+                                       
+                                            <!-- <h6 class="m-t-30 font-medium">Michale Anderson</h6> -->
+                                                <p ><p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p></p>
+    <a class="readmore-btn" href="https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/23/history/en">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                        </div>
+                        </div>
+
+
+
+<section>
+	<div class="infocus-box"> 
+		<div class="container">
+			
+<div class="thirteen headpad">
+  <h1>In Focus
+  </h1>
+</div>
+
+
+
+<div class="owl-carousel owl-theme owl-one owl-loaded owl-drag owl-infocus">
+	<div class="owl-stage-outer">
+		<div class="owl-stage">
+					<div class="owl-item col-md-3">
+				<a href="https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/12/bmtc-bengaluru-metropolitan-transport-corporation/en">
+					<div class="item wi">
+												  <img src="uploads/media_to_upload1674829788.jpg" />
+											  <h3>BMTC student bus pass</h3>
+					
+					</div>
+				</a>
+			</div>
+					<div class="owl-item col-md-3">
+				<a href="https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/8/national-digital-library-of-india-(ndli)/en">
+					<div class="item wi">
+												  <img src="uploads/media_to_upload1672309930.jpg" />
+											  <h3>National Digital Library of India(NDLI)</h3>
+					
+					</div>
+				</a>
+			</div>
+					<div class="owl-item col-md-3">
+				<a href="https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/10/infosys-springboard/en">
+					<div class="item wi">
+												  <img src="uploads/media_to_upload1672309800.jpg" />
+											  <h3>Infosys Springboard</h3>
+					
+					</div>
+				</a>
+			</div>
+					<div class="owl-item col-md-3">
+				<a href="https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/7/library/en">
+					<div class="item wi">
+												  <img src="uploads/media_to_upload1672308597.jpg" />
+											  <h3>College Library</h3>
+					
+					</div>
+				</a>
+			</div>
+					<div class="owl-item col-md-3">
+				<a href="https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/11/state-scholarship-portal-(ssp)/en">
+					<div class="item wi">
+												  <img src="uploads/media_to_upload1672139081.png" />
+											  <h3>State Scholarship Portal (SSP)</h3>
+					
+					</div>
+				</a>
+			</div>
+					<div class="owl-item col-md-3">
+				<a href="https://dtek.karnataka.gov.in/info-2/Diploma+Syllabus/C-20+Syllabus/en">
+					<div class="item wi">
+												  <img src="uploads/media_to_upload1672138929.png" />
+											  <h3>C-20 Syllabus</h3>
+					
+					</div>
+				</a>
+			</div>
+					<div class="owl-item col-md-3">
+				<a href="https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/9/national-scholarship-portal/en">
+					<div class="item wi">
+												  <img src="uploads/media_to_upload1672139210.png" />
+											  <h3>National Scholarship Portal</h3>
+					
+					</div>
+				</a>
+			</div>
+					<div class="owl-item col-md-3">
+				<a href="https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/13/learning-management-system(lms)/en">
+					<div class="item wi">
+												  <img src="uploads/media_to_upload1672138300.png" />
+											  <h3>Learning Management System (LMS)</h3>
+					
+					</div>
+				</a>
+			</div>
+					<div class="owl-item col-md-3">
+				<a href="https://demo.karnataka.gov.in/gpt.karnataka.gov.in/gwptbengaluru/public/6/national-service-scheme-(nss)/en">
+					<div class="item wi">
+												  <img src="uploads/media_to_upload1672137237.jpg" />
+											  <h3>National Service Scheme (NSS)</h3>
+					
+					</div>
+				</a>
+			</div>
+		        </div>
+    </div>
+
+</div>		</div>	
+	</div>
+</section>
+
+<section class="on-box1">	
+	<div class="container">
+<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 online-serv aos-init aos-animate" data-aos="fade-right" data-aos-duration="1000">
+		<h3 class="text-center black-title"><i class="fa fa-globe" aria-hidden="true"></i>Online Services</h3>
+
+					<ul>
+				<a href="https://btelinx.in/">
+					<li class="onbox">
+												  <img src="uploads/media_to_upload1706519763.jpg" />
+											  <h3>Exam Results</h3>
+					
+					</li>
+				</a>
+			</ul>
+					<ul>
+				<a href="https://saksham.org/">
+					<li class="onbox">
+												  <img src="uploads/media_to_upload1671864044.jpg" />
+											  <h3>SAKSHAM</h3>
+					
+					</li>
+				</a>
+			</ul>
+					<ul>
+				<a href="https://www.aicte-india.org/">
+					<li class="onbox">
+												  <img src="uploads/media_to_upload1671863474.jpg" />
+											  <h3>AICTE</h3>
+					
+					</li>
+				</a>
+			</ul>
+					<ul>
+				<a href="https://sevasindhu.karnataka.gov.in/sevasindhu/english">
+					<li class="onbox">
+												  <img src="uploads/media_to_upload1671863028.png" />
+											  <h3>Seva Sindhu</h3>
+					
+					</li>
+				</a>
+			</ul>
+					<ul>
+				<a href="https://k2.karnataka.gov.in/wps/portal/Khajane-II/Scope/Remittance/ChallanGeneration/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziTSycnQ39nQ38LVx8LA0C_f3DQn28PAwNQkz1w8EKDHAARwP9KGL041EQhd_4cP0ovFa4GBJQYGFEQIGBAVQBHlcU5IZGGGR6pgMA7DD6nQ!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/">
+					<li class="onbox">
+												  <img src="uploads/media_to_upload1671862549.jpg" />
+											  <h3>K-2 Challan Generation</h3>
+					
+					</li>
+				</a>
+			</ul>
+					<ul>
+				<a href="https://cetonline.karnataka.gov.in/kea/indexnew">
+					<li class="onbox">
+												  <img src="uploads/media_to_upload1671863673.png" />
+											  <h3>Karnataka Examination Authority</h3>
+					
+					</li>
+				</a>
+			</ul>
+					<ul>
+				<a href="https://dtek.karnataka.gov.in/english">
+					<li class="onbox">
+												  <img src="uploads/media_to_upload1671863770.png" />
+											  <h3>Department Collegiate and Technical Education</h3>
+					
+					</li>
+				</a>
+			</ul>
+		</div>
+
+
+		<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12  gallery-sec aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+		
+<div class="news-head">
+		<div class="text-center black-title">
+		
+			<h3 class="ghead"><i class="fa fa-file-image-o" aria-hidden="true"></i> Photo Gallery</h3>
+		</div>
+			
+	</div>
+	<div class="home-gallery">
+					<img src="uploads/96071706519992.jpg">
+					<img src="uploads/41461706509679.jpg">
+					<img src="uploads/72761706509549.jpg">
+					<img src="uploads/23561702451216.jpg">
+					<img src="uploads/98561702451216.jpg">
+				<a href="gallery/kn.html" class="ribbon-sm gal-left">
+					View Gallery <i class="fa fa-eye"></i>
+				</a>
+	</div>
+		</div>
+		<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 no-mar aos-init aos-animate documents" data-aos="fade-left" data-aos-duration="1000">	
+	<div class="news-head">
+		<div class="text-center black-title">
+			<h3 class="ghead"><i class="fa fa-list">	</i>Government Orders, Circulars and Downloads</h3>
+		</div>
+	</div>	
+<!-- <a href="" class="ribbon-sm">Read All News</a> -->
+<div id="accordian" class="scms-acc">
+		<ul id='cd-primary-nav' class='dept_docssam'><li class=' level_0'>
+					<a href='39/result-announcement/en.html'>
+					<i class=''></i> Result Announcement</a></li></ul></div>
+</div>	</div>
+</section>
+
+
+
+
+
+<style>
+  .sbox img{height: 72px;}
+.not-box
+{display:none;}
+</style>
+<!------------------------------------------------------- Owl slider --------------------------------------------->
+
+<div>
+<div class="container" id="container_owl">
+<div class="owl-carousel owl-theme owl-links">
+
+  <a href="https://karnataka.gov.in/gokdirectory/en" target="_blank">
+    <div class="item1">
+      <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/CONTACT-DIRECTORY.png" id="manual">
+      Govt Contact Manual
+    </div>
+   </a>
+
+   <div data-toggle="modal" data-target="#myModal1">
+    <div class="item1">
+      <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/IMPORTENT-WEBSITES.png">
+      Important Websites
+    </div> 
+   </div>  
+    
+    <div data-toggle="modal" data-target="#myModal2">
+     <div class="item1">
+       <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/ceg11.png">
+       e-Governance Websites
+     </div>
+    </div>
+
+    <div data-toggle="modal" data-target="#myModal3">
+     <div class="item1">
+      <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/E-SERVICES.png">
+      e-Service Websites
+     </div>
+    </div> 
+
+    <div data-toggle="modal" data-target="#myModal4">
+     <div class="item1">
+      <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/STATISTICS-WEBSITES.png">
+      Statistics Websites
+     </div>
+    </div> 
+
+  
+
+
+         <div>
+      <a href="https://apps.karnataka.gov.in/kn"  target="_blank">
+     <div class="item1">
+      <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/MOBILE-APPS.png">
+      Government Apps
+     </div>
+     </a>
+    </div> 
+
+
+    
+
+
+
+   <div data-toggle="modal" data-target="#myModal6">
+    <div class="item1">
+      <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/CENTREL-GOVT-WEBSITES.png">
+      Central Govt Websites
+    </div>
+   </div> 
+
+   <div data-toggle="modal" data-target="#myModal7">
+    <div class="item1">
+      <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/TECHNICLE-WEBSITES.png">
+      Technical Websites
+    </div>
+   </div> 
+
+ 
+   <div data-toggle="modal" data-target="#myModal8">
+    <div class="item1">
+      <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/KANNADA-WEBSITES.png">
+       Kannada websites
+    </div>
+   </div> 
+
+  <div data-toggle="modal" data-target="#myModal9">
+    <div class="item1">
+      <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/COMMISSIONS.png">
+       Commission
+    </div>
+   </div> 
+    
+  <div data-toggle="modal" data-target="#myModal10">  
+    <div class="item1">
+      <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/LAW-COURT.png">
+      Law/Court
+    </div>
+   </div> 
+
+   <div data-toggle="modal" data-target="#myModal11">
+    <div class="item1">
+      <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/DOWNLOADS.png">
+      Downloads
+    </div>
+   </div> 
+
+   <a href="https://www.kstdc.co/" target="_blank">
+    <div class="item1">
+      <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/TOURIST-WEBSITE.png">
+      Tourist Websites
+    </div>
+   </a> 
+
+   <a href="https://ceg.karnataka.gov.in/frontend/opt1/pdfs/HOLIDAYSLIST2024.pdf" target="_blank">
+    <div class="item1">
+      <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/GOVERNMENT-HOLLIDAY.png">
+       Government Holidays
+    </div>
+   </a> 
+
+    
+</div>
+</div>
+</div>
+
+
+</div>
+
+
+
+<!------------------------------------------------- Modal content ---------------------------------------->
+
+
+<!-- Important Websites -->
+  <div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Important Websites</h4>
+        </div>
+
+        <div class="modal-body">
+          <div class="container-fluid">
+        <div class="row">
+
+         <!----- <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+             <a href="https://karnataka.gov.in/department/kn" target="_blank">
+              <img src="https://ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/important_websites/webdirectory.png">
+              <p>Web-Directory</p>
+            </a>
+          </div>---->
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+             <a href="http://rajbhavan.karnataka.gov.in/" target="_blank">
+              <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/important_websites/karnataka_rajbhavan.png">
+              <p>Raj-Bhavan</p>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+           <a href="https://cm.karnataka.gov.in/" target="_blank">  
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/important_websites/vidan_souda.png">
+            <p>Chief Minister</p>
+           </a> 
+          </div>
+
+		  
+		    <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+           <a href="http://www.kla.kar.nic.in/assembly/assembly.htm" target="_blank">
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/important_websites/vidan_sabhe.png">
+            <p>Legislative Assembly</p>
+           </a> 
+          </div>
+       
+
+        </div>
+
+        <div class="row">
+           
+          
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+           <a href="http://www.kla.kar.nic.in/council/" target="_blank">  
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/important_websites/vidan_parishat.png">
+            <p>Legislative Council</p>
+           </a> 
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+           <a href="https://www.csogok.gov.in/" target="_blank">  
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/important_websites/vidan_souda.png">
+            <p>Chief Secretary</p>
+           </a> 
+          </div>
+
+          
+        </div>
+      </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+<!-- e-Governance -->
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">e - Governance</h4>
+        </div>
+
+        <div class="modal-body">
+          <div class="container-fluid">
+        <div class="row">
+  <div class="col-md-3 col-sm-6 col-xs-12 sbox" id="modal_icons">
+             <a href="https://ceg.karnataka.gov.in/" target="_blank">
+              <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/ceg11.png">
+              <p>C.E.G</p>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+             <a href="https://webportal.karnataka.gov.in/" target="_blank">
+              <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/ceg/webportal%20logo.png">
+              <p>Web Portal</p>
+            </a>
+          </div>
+
+           <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+             <a href="https://ceg.karnataka.gov.in/aadhaar/public/" target="_blank">
+              <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/ceg/adhaar.png">
+              <p>Aadhaar</p>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+           <a href="https://eofficecitizen.karnataka.gov.in/"  target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/ceg/eoffice.png">
+            <p>e-Office</p>
+           </a> 
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+           <a href="https://eproc.karnataka.gov.in/eprocportal/pages/index.jsp?language=kn"  target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/ceg/esangraha.png">
+            <p>e-Procurement</p>
+           </a> 
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+           <a href="https://hrms.karnataka.gov.in/" target="_blank">  
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/ceg/hrms.png">
+            <p>HRMS</p>
+           </a> 
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+           <a href="https://ceg.karnataka.gov.in/krdh/public/" target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/ceg/krdh.png">
+            <p>KRDH</p>
+           </a> 
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+           <a href="https://karunadu.karnataka.gov.in/KSWAN/pages/home.aspx"  target="_blank">  
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/ceg/kswan.png">
+            <p>KSWAN</p>
+           </a> 
+          </div>
+
+           <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+           <a href="https://dpar.karnataka.gov.in/" target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/ceg/krdh.png">
+            <p>DPAR</p>
+           </a> 
+          </div>
+
+           <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+            <a href="https://ceg.karnataka.gov.in/ksdc/public/" target="_blank"> 
+             <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/ceg/sdc.png">
+             <p>KSDC</p>
+            </a> 
+          </div>
+
+
+           <div class="col-md-3 col-sm-6 col-xs-12 sbox" id="modal_icons">
+             <a href="https://karnataka.data.gov.in/" target="_blank">
+               <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/icons/kodi.jpg">
+              <p>Open Data</p>
+            </a>
+          </div>
+
+           <div class="col-md-3 col-sm-6 col-xs-12 sbox" id="modal_icons">
+             <a href="https://digilocker.gov.in/" target="_blank">
+              <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/icons/digi.jpg">
+              <p>Digilocker</p>
+            </a>
+          </div>
+
+              <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+           <a href="http://mahitikanaja.karnataka.gov.in/Department" target="_blank">  
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/eservices/kar.png">
+            <p>Mahiti Kanaja</p>
+           </a> 
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+           <a href="http://nad.gov.in/Department" target="_blank">  
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/icons/nad.png">
+            <p>NAD</p>
+           </a> 
+          </div>
+		  
+		     <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+           <a href="https://ipgrs.karnataka.gov.in/" target="_blank">  
+            <img src="../../../egovernance.karnataka.gov.in/frontend/opt1/images/Janaspandana-logo.png" style="margin-top:13px;">
+            <p>IPGRS</p>
+           </a> 
+          </div>
+		  
+		  
+		  <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+           <a href="https://ssp.karnataka.gov.in/" target="_blank">  
+            <img src="../../../egovernance.karnataka.gov.in/frontend/opt1/images/kar_logo.png" style="margin-top:13px;">
+            <p>State Scholarship Portal </p>
+           </a> 
+          </div>
+		  
+		  
+		  
+
+        </div>
+      </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+  <!-- e-services -->
+  <div class="modal fade" id="myModal3" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">e - Services</h4>
+        </div>
+
+        <div class="modal-body">
+          <div class="container-fluid">
+        <div class="row">
+
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+             <a href="http://www.sakala.kar.nic.in/" target="_blank">
+              <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/eservices/sakala.png">
+              <p>Sakala</p>
+            </a>
+          </div>
+
+           <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+             <a href="https://sevasindhu.karnataka.gov.in/Sevasindhu/Kannada?ReturnUrl=%2F" target="_blank">
+              <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/eservices/kar.png">
+              <p>Seva Sindhu</p>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+           <a href="https://erajyapatra.karnataka.gov.in/(S(trrt4chio0tzmuy54rnz01x3))/default.aspx?AcceptsCookies=yes"  target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/eservices/kar.png">
+            <p>e-Gazette</p>
+           </a> 
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+           <a href="https://rtionline.karnataka.gov.in/"  target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/eservices/kar.png">
+            <p>Online RTI</p>
+           </a> 
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+           <a href="https://espandana.karnataka.gov.in/" target="_blank">  
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/eservices/espandana.png">
+            <p>e-Spandana</p>
+           </a> 
+          </div>
+
+        
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+           <a href="http://mahitikanaja.karnataka.gov.in/Department" target="_blank">  
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/eservices/kar.png">
+            <p>Mahiti Kanaja</p>
+           </a> 
+          </div>
+          
+
+        </div>
+      </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <!-- Statistics -->
+  <div class="modal fade" id="myModal4" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Statistics</h4>
+        </div>
+
+        <div class="modal-body">
+          <div class="container-fluid">
+        <div class="row">
+
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+             <a href="https://esamiksha.gov.in/Karnataka/" target="_blank">
+              <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/Statistics/e-pragathi.html">
+              <p>e-Pragathi</p>
+            </a>
+          </div>
+
+           <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+             <a href="https://etaal.gov.in/etaal2/auth/default.aspx" target="_blank">
+              <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/Statistics/e_taal.html">
+              <p>e-Taal</p>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+           <a href="https://karnataka.data.gov.in/"  target="_blank">  
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/Statistics/data.html">
+            <p>DATA</p>
+           </a> 
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+           <a href="https://gazetteer.karnataka.gov.in/"  target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/Statistics/gazette.html">
+            <p>Karnataka Gazette</p>
+           </a> 
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+           <a href="http://stgpratibimba.karnataka.gov.in/cmdbstg1/public/" target="_blank">  
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/Statistics/pratibimba_cm_dashbaord.html">
+            <p>CM Dashboard</p>
+           </a> 
+          </div>
+
+        
+
+           <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+          </div>
+        </div>
+      </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Central Govt Websites -->
+  <div class="modal fade" id="myModal6" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Central Government Websites</h4>
+        </div>
+
+        <div class="modal-body">
+          <div class="container-fluid">
+        <div class="row">
+
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+             <a href="https://loksabha.nic.in/" target="_blank">
+              <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/central_govt_websites/parliment_samsattu.png">
+              <p>Parliament</p>
+            </a>
+          </div>
+
+           <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+             <a href="https://presidentofindia.nic.in/" target="_blank">
+              <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/central_govt_websites/presidents_office.png">
+              <p>Presidents Office</p>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+           <a href="https://www.pmindia.gov.in/en/"  target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/central_govt_websites/prime_ministers.png">
+            <p>Prime Ministers Office</p>
+           </a> 
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+           <a href="https://portal2.passportindia.gov.in/AppOnlineProject/welcomeLink"  target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/central_govt_websites/passport_seva.png">
+            <p>Passport Seva</p>
+           </a> 
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+           <a href="https://uidai.gov.in/" target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/central_govt_websites/adhaar.png">
+            <p>Aadhaar</p>
+           </a> 
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+            <a href="https://karunadu.karnataka.gov.in/karnatakabhavan/pages/home.aspx"  target="_blank">  
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/central_govt_websites/karnataka_bhavan.png">
+            <p>Karnataka Bhavan</p>
+           </a> 
+          </div>
+
+         
+
+
+  
+        </div>
+      </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <!-- Technical Websites -->
+  <div class="modal fade" id="myModal7" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Technical Websites</h4>
+        </div>
+
+        <div class="modal-body">
+          <div class="container-fluid">
+        <div class="row">
+
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+             <a href="https://www.cdac.in/" target="_blank">
+              <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/technical_websites/cdac.png">
+              <p>CDAC</p>
+            </a>
+          </div>
+
+           <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+             <a href="https://www.nic.in/" target="_blank">
+              <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/technical_websites/nic.png">
+              <p>NIC</p>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+           <a href="http://www.stqc.gov.in/"  target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/technical_websites/stqc.png">
+            <p>STQC</p>
+           </a> 
+          </div>
+
+         
+
+        </div>
+
+        <div class="row">
+
+    
+
+        </div>
+      </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- Kannada Websites -->
+  <div class="modal fade" id="myModal8" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Kannada Websites</h4>
+        </div>
+
+        <div class="modal-body">
+          <div class="container-fluid">
+        <div class="row">
+
+
+           <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+             <a href="https://kannadasiri.karnataka.gov.in/" target="_blank">
+              <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/kannada_websites/kannada_culure_dept.png">
+              <p>Kannada & Culture</p>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+           <a href="https://kannadasahithyaparishattu.in/"  target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/kannada_websites/kannada_sahitya_parishat.png">
+            <p>Sahitya Parishat</p>
+           </a> 
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+           <a href="https://kanaja.karnataka.gov.in/"  target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/kannada_websites/kanaja.png">
+            <p>kanaja</p>
+           </a> 
+          </div>
+
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+             <a href="https://kannadapraadhikaara.karnataka.gov.in/" target="_blank">
+              <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/kannada_websites/kannada_abhiruddi_pradikar.png">
+              <p>Development Authority</p>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+           <a href="https://ekannada.karnataka.gov.in/"  target="_blank"> 
+           <img class="ekan" src="../../../ceg.karnataka.gov.in/frontend/opt1/images/e-kanada-logo.png">
+            <p>EKannada</p>
+           </a> 
+          </div>
+
+         
+
+        </div>
+
+        <div class="row">
+
+    
+
+        </div>
+      </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- Commissions Websites -->
+  <div class="modal fade" id="myModal9" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Commissions</h4>
+        </div>
+
+        <div class="modal-body">
+          <div class="container-fluid">
+        <div class="row">
+
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+             <a href="https://kshrc.karnataka.gov.in/english" target="_blank">
+              <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/commissions_websites/human_rights_kar.png">
+              <p>Karnataka State Human Right Commission</p>
+            </a>
+          </div>
+
+           <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+             <a href="https://kerc.karnataka.gov.in/" target="_blank">
+              <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/commissions_websites/all_ayoga.png">
+              <p>Karnataka State Electricity commission</p>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+           <a href="https://karunadu.karnataka.gov.in/jnanaayoga/Pages/home.aspx"  target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/commissions_websites/all_ayoga.png">
+            <p>Karnataka Knowledge Commission</p>
+           </a> 
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+           <a href="https://ceo.karnataka.gov.in/"  target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/commissions_websites/all_ayoga.png">
+            <p>Karnataka State Election Commission</p>
+           </a> 
+          </div>
+
+      
+        </div>
+
+        <div class="row">
+
+            
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+           <a href="https://kslsa.kar.nic.in/"  target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/commissions_websites/all_ayoga.png">
+            <p>Karnataka Legal Authority</p>
+           </a> 
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+           <a href="https://kscpcr.karnataka.gov.in/english"  target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/commissions_websites/all_ayoga.png">
+            <p>Karnataka State Child Rights Commission</p>
+           </a> 
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+           <a href="http://www.kscw.kar.nic.in/"  target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/commissions_websites/all_ayoga.png">
+            <p>Karnataka Women's Commission</p>
+           </a> 
+          </div>
+
+           <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+          <a href="https://kscdrc.karnataka.gov.in/english"  target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/commissions_websites/all_ayoga.png">
+            <p>Karnataka State Consumer Disputes Redressal Commission</p>
+           </a> 
+          </div>
+
+    
+
+        </div>
+      </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <!-- Law Courts -->
+  <div class="modal fade" id="myModal10" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Law Courts</h4>
+        </div>
+
+        <div class="modal-body">
+          <div class="container-fluid">
+        <div class="row">
+
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+             <a href="https://main.sci.gov.in/" target="_blank">
+              <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/law_websites/supreeem_court.png">
+              <p>Supreme Court</p>
+            </a>
+          </div>
+
+           <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+             <a href="https://karnatakajudiciary.kar.nic.in/" target="_blank">
+              <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/law_websites/high_1_court.png">
+              <p>High Court</p>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+           <a href="https://districts.ecourts.gov.in/karnataka"  target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/law_websites/district_courts.png">
+            <p>District Courts</p>
+           </a> 
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+           <a href="https://cgat.gov.in/catlive/index.php"  target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/law_websites/cat.png">
+            <p>Central Administrative Tribunal</p>
+           </a> 
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+           <a href="https://ksat.karnataka.gov.in/"  target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/law_websites/dpar.png">
+            <p>Karnataka State Administrative Tribunal</p>
+           </a> 
+          </div>
+    
+
+        </div>
+
+      </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <!-- Downloads -->
+  <div class="modal fade" id="myModal11" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Downloads</h4>
+        </div>
+
+        <div class="modal-body">
+          <div class="container-fluid">
+        <div class="row">
+
+
+        
+
+           <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+             <a href="https://ceg.karnataka.gov.in/frontend/opt1/application_download/nudi_6.0_setup.exe" target="_blank">
+              <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/downloads_websites/nudi.png">
+              <p>NUDI</p>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavender;text-align: center;">
+           <a href="https://www.cdac.in/index.aspx?id=ev_corp_gist_go_translate"  target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/downloads_websites/go_translate_cdac.png">
+            <p>GO Translate CDAC</p>
+           </a> 
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+           <a href="https://ceg.karnataka.gov.in/frontend/opt1/application_download/setup_espeak.exe"  target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/downloads_websites/e_speak.png">
+            <p>e-Speak</p>
+           </a> 
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 sbox" style="background-color:lavenderblush;text-align: center;">
+           <a href="https://play.google.com/store/apps/details?id=com.voicenotes.kannada&amp;hl=en"  target="_blank"> 
+            <img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/modal_icons/downloads_websites/kan_voice_notes.png">
+            <p>kannada Voice Notes</p>
+           </a> 
+          </div>
+
+
+         
+
+        </div>
+
+        <div class="row">
+
+    
+
+        </div>
+      </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  
+  
+<div class="icon-bar2">
+
+<ul id='cd-primary-nav' class='socialssam'><li class=' level_0'>
+					<a href='https://www.instagram.com/?hl=en'>
+					<i class='fa fa-instagram'></i> Instagram</a></li><li class=' level_0'>
+					<a href='https://www.facebook.com/'>
+					<i class='fa fa-facebook'></i> Facebook</a></li></ul> 
+
+</div>
+
+
+
+
+
+
+
+<!-------------------------------------------------------- Footer1 -------------------------------------------->
+
+
+
+
+
+<!--------------------------------------------------- Footer2--------------------------------------->
+
+<footer> 
+<div class="container-fluid dept-owner">
+
+  CONTENT OWNED BY : <span class="footer2_span"> Government Polytechnic for Women, Bengaluru, Department Of Collegiate and Technical Education, Government of Karnataka</span>
+
+</div>
+
+<!--------------------------------------------------- Footer3--------------------------------------->
+
+<div class="container-fluid footer3">
+
+   Designed, Developed & Hosted By : <span class="footer3_span"> CENTRE FOR e-GOVERNANCE, Government of Karnataka © 2024, All Rights Reserved.</span>
+
+</div>
+ </footer>
+
+
+
+
+
+
+
+<link href="#" rel="stylesheet">
+
+
+	<link rel="stylesheet" type="text/css" href="#">
+
+<script src="#"></script>
+
+<div class="footer ">
+<div class="container-fluid no-gutters main-footer">
+  <div class="row" id="footer1_row">
+
+     <div class="col-sm-12 col-md-4 col-xs-12 lb" >
+     <h3>Disclaimer :</h3>
+
+        <div class="disclaimer">
+        
+          <p>Please note that this page also provides links to the websites / web pages of Govt. Ministries/Departments/Organisations.The content of these websites are owned by the respective organisations and they may be contacted for any further information or suggestion</p>
+        </div>  
+
+    </div>
+
+
+
+    <div class="col-sm-6 col-md-4 col-xs-6 row lb website-policies">
+<h3>Website Policies and Guidelines</h3>
+ <div class="pull-left">
+       <ul>
+		
+         <li data-toggle="modal" data-target="#myModalf3"><i class="fa fa-angle-right" aria-hidden="true"></i>Copyright Policy</li>
+         <li data-toggle="modal" data-target="#myModalf4"><i class="fa fa-angle-right" aria-hidden="true"></i>Hyperlinking Policy</li>
+         <li data-toggle="modal" data-target="#myModalf5"><i class="fa fa-angle-right" aria-hidden="true"></i>Security Policy</li>
+		 <li data-toggle="modal" data-target="#myModalf6"><i class="fa fa-angle-right" aria-hidden="true"></i>Terms & Conditions</li>
+       </ul>  
+    </div>
+
+
+    <div class="pull-left">
+      <ul>
+          <li data-toggle="modal" data-target="#myModalf7"><i class="fa fa-angle-right" aria-hidden="true"></i>Privacy Policy</li>
+		  <li><a href="sitemap/en.html" style="color: #B5B5B5;"><i class="fa fa-angle-right" aria-hidden="true"></i>Sitemap</a></li>
+          <li data-toggle="modal" data-target="#myModalf8"><i class="fa fa-angle-right" aria-hidden="true"></i>Help</li>
+          <li data-toggle="modal" data-target="#myModalf9"><i class="fa fa-angle-right" aria-hidden="true"></i>Screen Reader Access</li>
+
+              <li><a href="https://ceg.karnataka.gov.in/guidelines/en" style="color: #B5B5B5;"><i class="fa fa-angle-right" aria-hidden="true"></i>Guidelines</a></li>
+      </ul> 
+    </div>
+    
+    </div>
+    
+    
+ 
+ <div class="col-sm-6  col-md-4 col-xs-6 lb" >
+ <h3>Visitors </h3>
+ 
+    <ul>
+                <li class="fvc"><i class="fa fa-angle-right" aria-hidden="true"></i>Last Updated​ : <label id='visitcount'><i class="fa fa-angle-right" aria-hidden="true"></i>2024-01-29 15:04:24</label><span></span> </li>
+        <li class="fvc"><i class="fa fa-angle-right" aria-hidden="true"></i>Visitors Counter  : <label id='visitcount'>274</label><span></span> </li>
+    <li class="fvc"><i class="fa fa-angle-right" aria-hidden="true"></i>Version  : <label id='visitcount'>CeG/KRN 2.0.0</label><span></span> </li>
+         
+      </ul> 
+    
+  
+    </div>
+  </div>
+
+  </div>
+
+
+  <ul class="list-inline foot-bottom">
+      <li>
+       <a href="https://www.meity.gov.in/" target="_blank" class="md-opjjpmhoiojifppkkcdabiobhakljdgm_doc"><img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/cm_logo/Meity_logo.png" class="footer_image"></a>
+      </li>
+      <li>
+       <a href="https://digitalindia.gov.in/" target="_blank" class="md-opjjpmhoiojifppkkcdabiobhakljdgm_doc"><img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/cm_logo/digital-india-logo.png" class="footer_image"></a>
+      </li> 
+      <li>
+       <a href="https://data.gov.in/" target="_blank" class="md-opjjpmhoiojifppkkcdabiobhakljdgm_doc"><img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/cm_logo/data-gov-logo.png" class="footer_image"></a>
+      </li>
+      <li>
+       <a href="https://www.india.gov.in/" target="_blank" class="md-opjjpmhoiojifppkkcdabiobhakljdgm_doc"><img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/cm_logo/india-gov-logo.png" class="footer_image"></a>
+      </li>
+      <li>
+       <a href="https://www.pmindia.gov.in/en/" target="_blank" class="md-opjjpmhoiojifppkkcdabiobhakljdgm_doc"><img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/cm_logo/pm-india-logo.png" class="footer_image"></a>
+      </li>
+
+      <li class="footer4_divider"></li>
+      <li></li>
+
+      <li>
+       <a ><img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/GIGW.jpg" class="footer_image"></a>
+      </li>
+      <li>
+       <a ><img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/WCAG.jpg" class="footer_image"></a>
+      </li> 
+      <li>
+      <a ><img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/SSLcertificate.png" class="footer_image"></a>
+      </li>
+      <li>
+      <a ><img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/w3c.png" class="footer_image"></a>
+      </li>
+      <li>
+      <a ><img src="../../../ceg.karnataka.gov.in/frontend/opt1/images/kp_kn.jpg" class="footer_image"></a>
+      </li>
+    </ul>
+</div>
+
+
+
+
+<!-------------------------------------------------------------------->
+  <!-- Copyright Policies -->
+  <div class="modal fade" id="myModalf3" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Copyright Policy</h4>
+        </div>
+        <div class="modal-body">
+         
+         <p class="copy_header">Copyright policy (if the published information is available free of any charge)</p>
+
+           <p>1)Information featured on this website can be re-published in any media form free
+               of any charge only with prior permission from us(CeG) or concerned respective authority which is owning the website, through email.</p>
+           <p>2)Information can be republished as it is available and not to be used in a distorted or misleading manner.</p>
+           <p>3)Where the material is being published or suggested to others, the source must be prominently acknowledged </p>
+           <p>4)13. However, the permission to reproduce this material does not extend to any material on this site, which is explicitly identified as being the copyright of a third party</p>
+          
+        <p class="copy_header">Copyright policy (if there is a provision to reuse published information)</p>
+        
+           <p>1)The information published on the website comes under copyright policy and obtaining authorization for their republish is a pre-requisite.</p>  
+
+           <p>2)To get permission one can mail to ………………..@.........</p>
+
+         
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+  <!-------------------------------------------------------------------->
+  <!-- Hperlinking Policies -->
+  <div class="modal fade" id="myModalf4" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Hyperlinking Policy</h4>
+        </div>
+        <div class="modal-body">
+          
+         <p class="copy_header">(in case the respective department doesn’t need any permission to hyperlink in their website) </p>
+
+           <p>1)We do not object to you linking directly to the information that is hosted on our site and no prior permission is required for the same.</p>
+
+           <p>2)we do not permit our pages to be loaded into frames on other sites. Our Department’s pages must load into a newly opened browser window of the user.</p>
+
+        <p class="copy_header">(in case of hyperlink permission is necessary for the website)</p>
+        
+           <p>1)to provide any link or its form on this website, it is compulsory to procure permission. </p>  
+
+           <p>2)permission can be obtained from the Centre for e-governance by requesting to this email. pd.webportal@karnataka.gov.in</p>
+ 
+           <p>3)Before leaving this government website note: this contact button will lead to another website, to get more information on such new opened site, one must contact the concerned contacts registered on that website.</p>
+         
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   
+
+
+
+  <!-------------------------------------------------------------------->
+  <!-- Security Policies -->
+  <div class="modal fade" id="myModalf5" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Security Policy</h4>
+        </div>
+        <div class="modal-body">
+          
+           <p> 1) For site security purposes and to ensure that this service remains available to all users, this Government      computer system employs commercial software programs to monitor network traffic to identify unauthorized attempts to upload or change information, or otherwise cause damage.
+           </p><br>
+
+          <p>2)  Except for authorized law enforcement investigations, no other attempts are made to identify individual users or their usage habits. Raw data logs are used for no other purposes and are scheduled for regular deletion.
+          </p><br>
+
+          <p>3) Unauthorized attempts to upload information or change information on this service are strictly prohibited and may be punishable under the Indian IT Act (2000).</p><br>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+ <!-------------------------------------------------------------------->
+  <!-- Terms & Conditions -->
+  <div class="modal fade" id="myModalf6" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Terms & Conditions</h4>
+        </div>
+        <div class="modal-body">
+          
+          <p>1)This website is designed, developed, and maintained by the center for e-governance.</p><br>
+
+          <p>2) Though all efforts have been made to ensure the accuracy and currency of the content on this website, the same should not be construed as a statement of law or used for any legal purposes. In case of any ambiguity or doubts, users are advised to verify/check with the Department(s) and/or other source(s) and to obtain appropriate professional advice.</p><br>
+
+          <p>3) ) Under no circumstances will this Department be liable for any expense, loss or damage including, without limitation, indirect or consequential loss or damage, or any expense, loss or damage whatsoever arising from use, or loss of use, of data, arising out of or in connection with the use of this website.</p><br>
+
+          <p>4) These terms and conditions shall be governed by and construed in accordance
+          with the Indian Laws. Any dispute arising under these terms and conditions
+          shall be subject to the jurisdiction of the courts of India.</p><br>
+
+
+          <p>5) The information posted on this website could include hypertext links or
+          pointers to information created and maintained by non-Government/private
+          organisations. (Name of Department) is providing these links and pointers solely
+          for your information and convenience. When you select a link to an outside
+          website, you are leaving the website and are subject to
+          the privacy and security policies of the owners/sponsors of the outside website.</p><br>
+
+
+          <p>6) The concerned department does not guarantee the availability of such linked pages at all times.</p><br>
+
+          <p>7)The concerned department, cannot authorize the use of copyrighted materials contained in linked websites. Users are advised to request such authorization from the owner of the linked website.</p><br>
+
+          <p>8)The concerned  department does not guarantee that linked websites comply with Indian Government Web Guidelines</p>
+          <br>
+ 
+          <p>If the user visits the information and collects information or downloads files, the following elements may automatically download,</p>
+          
+          <ul>
+            <li>- your service domain, IP number, how visitors accessed our website.</li>
+            <li>- browsers and operating systems.</li> 
+            <li>- date and time of users’ visits.</li> 
+            <li>- URLs from which visitors accessed information.</li>
+            <li>- if the user has visited the website from other websites, details of that website</li>
+          </ul>
+ 
+
+         <h6>Cookies</h6>
+
+          <p>
+            When you visit some websites, they may download small pieces of software on your computer/browsing device known as cookies. Some cookies collect personal information to recognize your computer in the future. We only use non-persistent cookies or “per-session cookies”. 28 Per-session cookies serve technical purposes, like providing seamless navigation through this website. These cookies do not collect personal information on users and they are deleted as soon as you leave our website. The cookies do not permanently record data and they are not stored on your computer’s hard drive. The cookies are stored in memory and are only available during an active browser session. Again, once you close your browser, the cookie disappears.
+          </p>
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------->
+  <!-- Privacy Policies -->
+  <div class="modal fade" id="myModalf7" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Privacy Policies</h4>
+        </div>
+        <div class="modal-body">
+          
+          <p class="copy_header">privacy policy : (when the website doesn’t collect any personal information)</p>
+            <p>
+              We collect no personal information, like names or addresses, when you visit our website. If you choose to provide that information to us, it is only used to fulfill your request for information
+            </p>
+
+          <p class="copy_header">user information: </p>
+            <p>
+              we do collect technical user details when a user visits the websites and visitor information such as the type of browser, server, and domain, date and time, details of documents downloaded are recorded, This information is only used to help us make the site more useful for you. With this data, we learn about the number of visitors to our site and the types of technology our visitors use. We never track or record information about individuals and their visits. (except in the case when directed by the court through a warrant) 
+            </p>
+
+          <p class="copy_header">cookies: </p>
+            <p>
+              Web sites provide a piece of software when visitors receive information on a website and they are called Cookies. No such cookies are used on this website. 
+            </p> 
+
+          <p class="copy_header">Email management: </p>
+            <p>
+             emails are stored when a user sends any information only for that instant and is used only to give information to them. these are not to be used for any purposes or to include in the contact list. without intimating the user, it won’t be revealed.
+            </p> 
+            
+          <p class="copy_header">collection of personal details:  </p>
+            <p>
+              if the user asks or provides any personal information, the details of its usage are mentioned. if you are not satisfied or suspicious about the details are given or wish to provide an opinion about the same, its necessary for you to contact assigned webmasters under ‘contact us’ section 
+
+              note: private pieces of information received under ‘Personal details’ will only be used to collect identity or elements for easy identification. 
+ 
+            </p> 
+            
+          <p class="copy_header">cookies: </p>
+            <p>
+              Web sites provide a piece of software when visitors receive information on a website and they are called Cookies. No such cookies are used on this website. 
+            </p>     
+
+            <h6 style="font-weight: 600;">if the user provides personal information.</h6>
+             <p>
+               1. We do not collect personal information for any purpose other than to respond to you (for example, to respond to your questions or provide subscriptions you have chosen). If you choose to provide us with personal information like filling out a Contact Us form, with an e-mail address or postal address, and submitting it to us through the website-we use that information to respond to your message and to help you get the information you have requested. We only share the information you give us with another Government agency if your question relates to that agency, or as otherwise required by law. 
+            </p>
+            <p>
+              2. Our website never collects information or creates individual profiles for commercial marketing. While you must provide an email address for a localized response to any incoming questions or comments to us, we recommend that you do NOT include any other personal information.
+            </p>
+
+          
+           <h6 style="font-weight: 600;">website security </h6>
+             <p>
+              1)to make the information available to all, to prevent unauthorized user entry, to stop harming or distorting information and keeping the security of the website in mind, also to handle user traffic, commercial software programs are used. 
+             </p>
+
+             <p>
+               2)Except for official law institutions, no attempts are made to personally identify the visitor or user.
+             </p>
+             
+             <p>3)Visitor information is subject to regular deletion</p>
+             <p>4)unauthorized users shall not add or change information available which can have legal consequences and may be subjected to fine under IT act (2000).</p>
+ 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------->
+  <!-- Help -->
+  <div class="modal fade" id="myModalf8" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Help</h4>
+        </div>
+        <div class="modal-body">
+          
+          <h6 style="text-decoration: underline;" class="copy_header">INFORMATION SEARCH:</h6>
+
+           <p> to help users access information within the website, a “search here” option is been provided. here, the option to type in Kannada is made available. while searching, usage of Unicode font is compulsory. option to search in English is also provided. </p>
+
+          <h6 style="text-decoration: underline;" class="copy_header">INTERNET ACCESSIBILITY</h6> 
+
+            <p>if the internet is slow or unavailable, there may be a modification in website design or some subpages may not open. </p>
+
+          </p><br>
+
+          <div class="scroll-table1"><div class="guide-text"><i class="fa fa-long-arrow-right"></i></div><div class="scroll-table"><table id="tablehelp" class="border" border="1"> <caption>Help of Various File formats :</caption> <tbody> <tr> <th>Document Type</th> <th>Download</th> </tr> <tr class="even"> <td>PDF content</td> <td> <img src="../../../labour.gov.in/sites/default/files/pdf.png" alt="image"><a href="http://get.adobe.com/reader/" target="_BLANK" title="External site that opens in a new window"> Adobe Acrobat Reader</a> (External website that opens in a new window) </td> </tr> <tr class="odd"> <td>Word files</td> <td><img src="../../../labour.gov.in/sites/default/files/Word.png" alt="image">  <a href="http://www.microsoft.com/downloads/en/details.aspx?familyid=3657CE88-7CFA-457A-9AEC-F4F827F20CAC&amp;displaylang=en" target="_BLANK" title="External site that opens in a new window"> Word Viewer (in any version till 2003)</a> - External website that opens in a new window<br> <a href="http://www.microsoft.com/downloads/en/details.aspx?FamilyID=c8378bf4-996c-4369-b347-73edbd03aaf0&amp;displaylang=EN" target="_BLANK" title="External site that opens in a new window">Microsoft Office Compatibility Pack for Word (for 2007 version)</a> - External website that opens in a new window </td> </tr> <tr class="even"> <td>Excel files</td> <td> <img src="../../../labour.gov.in/sites/default/files/Excel.png" alt="image">  <a href="http://www.microsoft.com/downloads/en/details.aspx?FamilyId=428D3727-43AB-4F24-90B7-A94784AF71A4&amp;displaylang=en" target="_BLANK" title="External site that opens in a new window"> Excel Viewer 2003 (in any version till 2003)</a> - External website that opens in a new window<br> <a href="http://www.microsoft.com/downloads/en/details.aspx?familyid=941b3470-3ae9-4aee-8f43-c6bb74cd1466&amp;displaylang=en" target="_BLANK" title="External site that opens in a new window">Microsoft Office Compatibility Pack for Excel (for 2007 version)</a> - External website that opens in a new window </td> </tr> <tr class="odd"> <td>PowerPoint presentations</td> <td><img src="../../../labour.gov.in/sites/default/files/powerpoint.png" alt="image">  <a href="http://www.microsoft.com/downloads/en/details.aspx?FamilyId=428D5727-43AB-4F24-90B7-A94784AF71A4&amp;displaylang=en" target="_BLANK" title="External site that opens in a new window"> PowerPoint Viewer 2003 (in any version till 2003)</a> - External website that opens in a new window<br> <a href="http://www.microsoft.com/downloads/en/details.aspx?familyid=941b3470-3ae9-4aee-8f43-c6bb74cd1466&amp;displaylang=en" target="_BLANK" title="External site that opens in a new window">Microsoft Office Compatibility Pack for PowerPoint (for 2007 version)</a> - External website that opens in a new window </td> </tr> <tr class="even"> <td>Flash content</td> <td> <img src="../../../labour.gov.in/sites/default/files/Flash.png" alt="image"> <a href="http://get.adobe.com/flashplayer/" target="_BLANK" title="External site that opens in a new window">Adobe Flash Player </a>(External website that opens in a new window) </td> </tr> <tr class="odd"><td>Audio Files</td> <td> <img src="../../../labour.gov.in/sites/default/files/red.png" alt="image"> <a href="http://windows.microsoft.com/en-US/windows/downloads/windows-media-player" target="_BLANK" title="External site that opens in a new window">Windows Media Player </a>(External website that opens in a new window) </td> </tr> </tbody> </table></div></div>
+
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------->
+  <!-- Screen Reader Access -->
+  <div class="modal fade" id="myModalf9" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Screen Reader Access</h4>
+        </div>
+        <div class="modal-body">
+          
+          <div class="nicetext">        
+            <div class="innerpage">
+             <div id="skipCont" class="wrapper">
+       
+             <div class="row">                 
+              <div class="col-md-12 col-sm-9 col-xs-12">
+                <h1 class="heading" tabindex="0"></h1>
+                <div class="region region-content">
+                <div id="block-system-main" class="block block-system">
+
+    
+                <div class="content">
+                 <div class="panel-display panel-1col clearfix">
+                 <div class="panel-panel panel-col">
+                   <div>
+                    <div class="panel-pane pane-views pane-page">
+  
+                     <div class="pane-content">
+                       <div class="view view-page view-id-page view-display-id-block view-dom-id-9f59a9bf8ad69ecc93f01660ca78bb00">
+        
+                       <div class="view-content">
+                        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+                         <div class="views-field views-field-body">        
+                          <div class="field-content">
+                            <p>The website complies with World Wide Web Consortium (W3C) Web Content Accessibility Guidelines (WCAG) 2.0 level AA. This will enable people with visual impairments access the website using assistive technologies, such as screen readers. The information of the website is accessible with different screen readers, such as JAWS, NVDA, SAFA, Supernova and Window-Eyes.</p>
+                            <p>Following table lists the information about different screen readers:</p>
+
+                            <div class="guide-text">
+                              <i class="fa fa-long-arrow-right"></i>
+                            </div>
+
+                            <div class="scroll-table1">  
+                              <table class="srtable" summary="Screen Reader">
+                                <tbody>
+                                  <tr>
+                                    <th>Sl. No.</th>
+                                    <th>Screen Reader</th>
+                                    <th>Website</th>
+                                    <th>Free/ Commercial</th>
+                                  </tr>
+
+
+                                  <tr>
+                                    <td>1</td>
+                                    <td>Non Visual Desktop Access (NVDA)</td>
+                                    <td><a href="http://www.nvda-project.org/" target="_blank">http://www.nvda-project.org/</a><br> (External website that opens in a new window)</td>
+                                    <td>Free</td>
+                                  </tr>
+
+                                  <tr>
+                                    <td>2</td>
+                                    <td>JAWS</td>
+                                    <td><a href="http://www.freedomscientific.com/products/software/jaws/" target="_blank">http://www.freedomscientific.com</a> <br>(External website that opens in a new window)</td>
+                                    <td>Commercial</td>
+                                  </tr>
+
+                                  <tr>
+                                    <td>3</td>
+                                    <td>Window-Eyes</td>
+                                    <td><a href="http://www.gwmicro.com/Window-Eyes/" target="_blank">http://www.gwmicro.com</a><br> (External website that opens in a new window)</td>
+                                    <td>Commercial</td>
+                                  </tr>
+
+                                  <tr>
+                                    <td>4</td>
+                                    <td>System Access To Go</td>
+                                    <td><a href="http://www.satogo.com/" target="_blank">http://www.satogo.com/</a><br>(External website that opens in a new window)</td>
+                                    <td>Free</td>
+                                  </tr>
+
+                                  <tr>
+                                    <td>5</td>
+                                    <td>WebAnywhere</td>
+                                    <td><a href="http://webinsight.cs.washington.edu/" target="_blank">http://webinsight.cs.washington.edu/</a> <br>(External website that opens in a new window)</td>
+                                    <td>Free</td>
+                                  </tr>
+								  
+								  
+								  
+								    <tr>
+                                    <td>6</td>
+                                    <td>atoall</td>
+                                    <td><a title="This Will Make You Easy For Growth, Use Accessibility Tool" target="_blank" rel="noopener" href="https://atoall.com/all.asp"> <img height="64" width="64" alt="This Will Make You Easy For Growth, Use Accessibility Tool" src="https://atoall.com/all/512-accessibility-square.svg"></a>
+ <br>(External website that opens in a new window)</td>
+                                    <td>Free</td>
+                                  </tr>
+
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>  
+                        </div>  
+                      </div>
+                    </div>
+  
+                </div>  
+               </div>
+  
+              </div>
+              </div>
+              </div>
+             </div>
+             </div>
+             </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+<!--------------------------------------------------------- Script -------------------------------------------------->
+
+ <script src="assets/front/js/colorchange.js"></script>
+ 
+  <script type="text/javascript">
+    $("#slideshow > div:gt(0)").hide();
+
+    setInterval(function() 
+    {
+      $('#slideshow > div:first')
+        .fadeOut(1000)
+        .next()
+        .fadeIn(1000)
+        .end()
+        .appendTo('#slideshow');
+    }, 5000);
+
+
+  </script>
+ <!---------------------------------------------------- side menu ---------------------------------->
+  <script>
+    function openNav() 
+    {
+		
+      document.getElementById("mySidenav").style.display = "block";
+    }
+
+    function closeNav() 
+    {
+      document.getElementById("mySidenav").style.display = "none";
+    }
+  </script>
+  
+  <!--- side menu bar ------>
+  <div id="mySidenav" class="sidenav">
+   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+   <div style="text-align: center;">
+     <!-- <img src="images1/dult_logo.jpg" alt="BMTC_LOGO"  style="width: 100px;height: 100px;border-radius: 50%;" /> -->
+   </div>
+   <a href="#" style="padding-top: 20px;">ABOUT DULT</a>
+   <a href="#">ORGANISATIONAL STRUCTURE</a>
+   <a href="#">PROJECTS</a>
+   <a href="#"></a>
+  </div>
+<!-------------------------------------------------- Auto Slider ---------------------------------->
+
+
+
+<script type="text/javascript">
+  $(function () {
+    $('#homeCarousel').carousel({
+        interval:3000,
+        pause: "false"
+    });
+    $('#playButton').click(function () {
+        $('#homeCarousel').carousel('cycle');
+    });
+    $('#pauseButton').click(function () {
+        $('#homeCarousel').carousel('pause');
+    });
+});
+
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+$(".tablinks").click(function(e){
+		var target = $(this).data("target");
+		openCity(e, target);
+	});
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+<!---------------------------------------------------- Gallery ------------------------------------------>
+<!---- Tab1 ----->
+
+<script>
+var gallery_obj;
+var slideIndex = 0;
+$(".gallery_buttons").click(function(){
+	var slideIndex = 0;
+	gallery_obj = this;
+	showSlides(slideIndex, this);
+});
+
+function plusSlides(n, obj) {
+  showSlides(slideIndex += n, gallery_obj);
+}
+
+function currentSlide(n, obj) {
+  showSlides(slideIndex = n, gallery_obj);
+}
+
+function showSlides(n, obj) {
+  var i;
+  var slider_id = $(obj).data("target");
+  var slides =  $("#"+slider_id).find(".mySlides");
+  var dots = $("#"+slider_id).find(".demo");
+  var captionText = $("#"+slider_id).find(".caption");
+  if (n >= slides.length) { slideIndex = 0; }
+  else if (n < 0) {slideIndex = slides.length-1; }
+  else { slideIndex = n; }
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex].style.display = "block";
+  dots[slideIndex].className += " active";
+  captionText.innerHTML = dots[slideIndex].alt;
+}
+$("#defaultOpen").click();
+</script>
+
+
+
+
+
+
+<!-------------------------------- Sticky Header -------------------------------->
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+
+
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+  
+
+
+<!----------------------------------------------- Owl JS ------------------------------------------>
+
+    <script type="text/javascript" src="assets/front/owl/owl.carousel.js"></script>
+    <script type="text/javascript" src="assets/front/js/aos.js"></script>  
+<script type="text/javascript" src="assets/front/js/acc_search.js"></script>  
+<script type="text/javascript" src="assets/front/js/custom.js"></script>   
+<script type="text/javascript" src="assets/front/map/main.js"></script>   
+
+<script type="text/javascript" src="assets/front/tabswipe/js/custom8648.js?1708744820="></script>   
+<script type="text/javascript" src="assets/front/tabswipe/js/swipebundle.js"></script>   
+    <script type="text/javascript" src="assets/front/js/custom_fancybox.js"></script>  
+        <script type="text/javascript" src="assets/front/js/facncybox.js"></script>  
+
+        
+<script>
+		</script>
+
+<script>
+$(document).ready(function() {
+  $(".gallery a").fancybox();
+});
+</script>
+
+</body>
+
+<!-- Mirrored from gpt.karnataka.gov.in/gwptbengaluru/public/en by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 24 Feb 2024 03:20:55 GMT -->
+</html>
